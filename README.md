@@ -4,12 +4,10 @@ Scripts for running, processing and plotting Kilobot simulations and their resul
 
 Directory layout is as follows:
 
-.
-
 ├── kilobox
 
 ├── kilobox_build
 
 ├── ...
 
-├── testing
+├── **testing**
