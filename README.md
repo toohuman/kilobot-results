@@ -4,22 +4,14 @@ Scripts for running, processing and plotting Kilobot simulations and their resul
 
 Directory layout is as follows:
 
-├── kilobox
-
-├── kilobox_build
-
-├── ...
-
-├── **testing**
-
-│   ├── results
-
-│      ├── steadystates
-
-│      ├── test_results
-
-│      ├── trajectories
-
+├── kilobox\
+├── kilobox_build\
+├── ...\
+├── **testing**\
+│   ├── results\
+│      ├── steadystates\
+│      ├── test_results\
+│      ├── trajectories\
 │      └── video_results
 
 Above, the results directory contains the .csv files in the directory "test_results", and the steadystate and trajectory graphs (PDFs) go in their own respective folders. The "video_results" directory is for the output files of the video processing using OpenCV (kilobot_processing.py).
